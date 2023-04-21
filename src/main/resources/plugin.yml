@@ -2,3 +2,20 @@ name: EasyWarp
 version: '${project.version}'
 main: me.nssj.easywarp.EasyWarp
 api-version: 1.13
+commands:
+  warp:
+    description: teleports to warp
+    usage: /<command> [warp]
+    permission: easywarp.warp
+  setwarp:
+    description: sets warp
+    usage: /<command> [warp]
+    permission: easywarp.setwarp
+  delwarp:
+    description: removes warp
+    usage: /<command> [warp]
+    permission: easywarp.delwarp
+  warps:
+    description: gives warp list
+    usage: /<command>
+    permission: easywarp.warps

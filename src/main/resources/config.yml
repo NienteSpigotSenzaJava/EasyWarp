@@ -1,0 +1,39 @@
+#   ______             __          __
+#  |  ____|            \ \        / /
+#  | |__   __ _ ___ _   \ \  /\  / /_ _ _ __ _ __
+#  |  __| / _` / __| | | \ \/  \/ / _` | '__| '_ \
+#  | |___| (_| \__ \ |_| |\  /\  / (_| | |  | |_) |
+#  |______\__,_|___/\__, | \/  \/ \__,_|_|  | .__/
+#                    __/ |                  | |
+#                   |___/                   |_|    by nSSj_
+
+
+
+# below you can set the cooldown after the /warp command
+# the user will be teleported after the cooldown, and he'll not be able to type it again until the end of the cooldown
+
+cooldown: 5
+
+# cancel the teleport after the /warp command if the user moves
+
+cancelTpOnMove: true
+
+# plugin messages (use the § character for colors, see https://minecraft.tools/en/color-code.php)
+
+messages:
+  warpWrongSyntax: "Specify a warp to reach."
+  warpDoNotExist: "Warp %warp% does not exist."
+  warpNoPermission: "You can't go to warp %warp%"
+  teleportCooldown: "You have to wait %cooldown% seconds before teleporting to %warp%"
+  teleportInProgress: "Don't move, you will be teleported to %warp% in %cooldown% seconds"
+  teleportSuccessfully: "You reached %warp%!"
+  teleportCancelled: "Teleport to warp %warp% cancelled."
+  setWarpWrongSyntax: "Specify the name of the warp to create"
+  warpAlreadyExists: "The warp %warp% already exists."
+  warpCreated: "The warp %warp% has been created"
+  delWarpWrongSyntax: "Specify the name of the warp to delete"
+  warpDeleted: "Warp %warp% has been deleted"
+  listWarpWrongSyntax: "You can't do that"
+  noWarps: "There are not warps to reach"
+  listWarp: "Here below you find the list of warps"
+  listWarpItem: " - %warp%"
