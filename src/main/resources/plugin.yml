@@ -1,0 +1,4 @@
+name: EasyWarp
+version: '${project.version}'
+main: me.nssj.easywarp.EasyWarp
+api-version: 1.13
