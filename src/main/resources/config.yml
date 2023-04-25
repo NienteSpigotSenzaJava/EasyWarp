@@ -18,6 +18,10 @@ cooldown: 5
 
 cancelTpOnMove: true
 
+# require permission for every warp (easywarp.warp.warpname)
+
+requireWarpPermission: false
+
 # plugin messages (use the § character for colors, see https://minecraft.tools/en/color-code.php)
 
 messages:

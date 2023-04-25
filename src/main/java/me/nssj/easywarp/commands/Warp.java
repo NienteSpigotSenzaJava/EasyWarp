@@ -56,7 +56,7 @@ public class Warp implements CommandExecutor, TabCompleter, Listener {
 
             }
 
-            if(!player.hasPermission("easywarp.warp." + args[0])) {
+            if (config.getBoolean("requireWarpPermission") && !player.hasPermission("easywarp.warp." + args[0])) {
 
                 player.sendMessage(config.getString("messages.warpNoPermission").replace("%warp%", args[0]));
                 return true;
