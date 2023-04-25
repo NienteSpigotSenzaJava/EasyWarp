@@ -23,21 +23,22 @@ cancelTpOnMove: true
 requireWarpPermission: false
 
 # plugin messages (use the § character for colors, see https://minecraft.tools/en/color-code.php)
+# you can use the %warp% and %cooldown% variables where they're used, they're optional anyway
 
 messages:
-  warpWrongSyntax: "Specify a warp to reach."
-  warpDoNotExist: "Warp %warp% does not exist."
-  warpNoPermission: "You can't go to warp %warp%"
-  teleportCooldown: "You have to wait %cooldown% seconds before teleporting to %warp%"
-  teleportInProgress: "Don't move, you will be teleported to %warp% in %cooldown% seconds"
-  teleportSuccessfully: "You reached %warp%!"
-  teleportCancelled: "Teleport to warp %warp% cancelled."
-  setWarpWrongSyntax: "Specify the name of the warp to create"
-  warpAlreadyExists: "The warp %warp% already exists."
-  warpCreated: "The warp %warp% has been created"
-  delWarpWrongSyntax: "Specify the name of the warp to delete"
-  warpDeleted: "Warp %warp% has been deleted"
-  listWarpWrongSyntax: "You can't do that"
-  noWarps: "There are not warps to reach"
-  listWarp: "Here below you find the list of warps"
-  listWarpItem: " - %warp%"
+  warpWrongSyntax: "§eSpecify a warp to reach."
+  warpDoNotExist: "§cWarp §e%warp% §cdoes not exist."
+  warpNoPermission: "§cYou can't go to warp §e%warp%§c."
+  teleportCooldown: "§cYou have to wait %cooldown% seconds before teleporting to §e%warp%§c."
+  teleportInProgress: "§aDon't move, you will be teleported to §e%warp% §ain %cooldown% seconds."
+  teleportSuccessfully: "§aYou reached §e%warp%§a."
+  teleportCancelled: "§cTeleport to warp §e%warp% §ccancelled."
+  setWarpWrongSyntax: "§cSpecify the name of the warp to create."
+  warpAlreadyExists: "§cThe warp §e%warp% §calready exists."
+  warpCreated: "§aThe warp §e%warp% §ahas been created."
+  delWarpWrongSyntax: "§cSpecify the name of the warp to delete."
+  warpDeleted: "§aWarp §e%warp% §ahas been deleted."
+  listWarpWrongSyntax: "§cYou can't do that."
+  noWarps: "§cThere aren't warps to reach."
+  listWarp: "§dHere is a list of all the warps:"
+  listWarpItem: " §d- §e%warp%"
