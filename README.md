@@ -8,7 +8,7 @@ Easily create, delete and teleport to a warp.
 
 If you want to build the project by yourself just run
 
-```bash
+``` bash
 git clone https://github.com/NienteSpigotSenzaJava/EasyWarp
 cd EasyWarp
 mvn clean package
