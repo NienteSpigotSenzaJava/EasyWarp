@@ -41,7 +41,7 @@ Here below you can find a list of options for the plugin.
 
 ## Compatibility
 
-The plugin should work from version ```1.13.2``` to version ```1.19.4```, for any problem just open an issue.
+The plugin should work from version ```1.13.2``` to version ```1.19.4``` (latest atm), for any problem just open an issue.
 
 ## Contributing
 
