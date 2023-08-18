@@ -11,7 +11,7 @@ If you want to build the project by yourself just run
 ``` bash
 git clone https://github.com/NienteSpigotSenzaJava/EasyWarp
 cd EasyWarp
-mvn clean package
+mvn package
 ```
 
 you will find ```EasyWarp-1.0.0.jar``` in the ```/target``` directory.
